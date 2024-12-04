@@ -13,6 +13,7 @@ module Amorail
     amo_property :phone, enum: 'WORK'
     amo_property :address
     amo_property :web
+    amo_property :domain
 
     validates :name, presence: true
 
